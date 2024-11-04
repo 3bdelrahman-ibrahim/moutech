@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "public/index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/product/(.*)",
+      "dest": "public/product.html"
+    },
+    {
+      "src": "/checkout",
+      "dest": "public/checkout.html"
+    },
+    {
+      "src": "/products",
+      "dest": "public/products.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "public/index.html"
+    }
+  ]
+}
