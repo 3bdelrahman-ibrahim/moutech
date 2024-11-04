@@ -9,19 +9,19 @@
   "routes": [
     {
       "src": "/product/(.*)",
-      "dest": "public/product.html"
+      "dest": "/product.html"
     },
     {
       "src": "/checkout",
-      "dest": "public/checkout.html"
+      "dest": "/checkout.html"
     },
     {
       "src": "/products",
-      "dest": "public/products.html"
+      "dest": "/products.html"
     },
     {
       "src": "/(.*)",
-      "dest": "public/index.html"
+      "dest": "/index.html"
     }
   ]
 }
